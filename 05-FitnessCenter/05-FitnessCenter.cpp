@@ -9,6 +9,7 @@ int main()
 	// ppl that goes to the fitness
 	int people; // number of ppl for a day
 	cin >> people;
+	cin.ignore();
 
 	// every other input is info what every person
 	// is doing
@@ -22,7 +23,6 @@ int main()
 	double workOut = 0.0;
 	double protein = 0.0;
 
-		cin.ignore();
 	string goal;
 
 	for (int i = 1; i <= people; i++)
